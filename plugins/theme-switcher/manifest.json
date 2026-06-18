@@ -1,0 +1,20 @@
+{
+  "id": "theme-switcher",
+  "name": "EVA Theme Switcher",
+  "version": "1.0.0",
+  "minNoctaliaVersion": "3.6.0",
+  "author": "fested",
+  "license": "MIT",
+  "description": "Switch between LCL Deep Blue, Third Impact, and Unit-01 desktop themes. Updates Hyprland colours, GTK theme, Papirus folder colour, and wallpaper.",
+  "entryPoints": {
+    "desktopWidget": "DesktopWidget.qml"
+  },
+  "dependencies": {
+    "plugins": []
+  },
+  "metadata": {
+    "defaultSettings": {
+      "scriptDir": "~/.config/noctalia/theme-scripts"
+    }
+  }
+}

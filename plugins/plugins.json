@@ -1,0 +1,22 @@
+{
+  "eva-clock": {
+    "enabled": true,
+    "sourceUrl": ""
+  },
+  "rei-quotes": {
+    "enabled": true,
+    "sourceUrl": ""
+  },
+  "magi-system": {
+    "enabled": true,
+    "sourceUrl": ""
+  },
+  "nerv-sync": {
+    "enabled": true,
+    "sourceUrl": ""
+  },
+  "rei-weather": {
+    "enabled": true,
+    "sourceUrl": ""
+  }
+}

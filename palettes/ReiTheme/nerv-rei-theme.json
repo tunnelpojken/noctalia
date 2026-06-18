@@ -1,0 +1,25 @@
+{
+    "name": "Nerv-Rei-Theme",
+    "background": "#0D0D0D",
+    "foreground": "#E0E0E0",
+    "cursor": "#82CFFD",
+    "selection": "#1A1A1A",
+    "colors": {
+        "black": "#1A1A1A",
+        "brightBlack": "#444444",
+        "red": "#E60012",
+        "brightRed": "#FF4D4D",
+        "green": "#A8E0A0",
+        "brightGreen": "#C2F0C2",
+        "yellow": "#FFCC00",
+        "brightYellow": "#FFE066",
+        "blue": "#82CFFD",
+        "brightBlue": "#A3DEFF",
+        "magenta": "#D4A0E0",
+        "brightMagenta": "#E6C2F0",
+        "cyan": "#82CFFD",
+        "brightCyan": "#A3DEFF",
+        "white": "#E0E0E0",
+        "brightWhite": "#FFFFFF"
+    }
+}

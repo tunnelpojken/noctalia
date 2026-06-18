@@ -1,0 +1,21 @@
+{
+  "id": "rei-weather",
+  "name": "Rei Weather",
+  "version": "1.0.0",
+  "minNoctaliaVersion": "3.6.0",
+  "author": "fested",
+  "license": "MIT",
+  "description": "Rei-themed weather widget using Open-Meteo. Colors follow active Noctalia colorscheme.",
+  "entryPoints": { "desktopWidget": "DesktopWidget.qml" },
+  "dependencies": { "plugins": [] },
+  "metadata": {
+    "defaultSettings": {
+      "latitude": 63.8258,
+      "longitude": 20.2630,
+      "locationName": "Umeå",
+      "useCelsius": true,
+      "showHourly": true,
+      "refreshMinutes": 15
+    }
+  }
+}

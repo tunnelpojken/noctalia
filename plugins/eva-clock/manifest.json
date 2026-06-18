@@ -1,0 +1,19 @@
+{
+  "id": "eva-clock",
+  "name": "EVA Clock",
+  "version": "1.0.0",
+  "minNoctaliaVersion": "3.6.0",
+  "author": "fested",
+  "license": "MIT",
+  "description": "NERV-styled clock widget. Colors follow active Noctalia colorscheme.",
+  "entryPoints": { "desktopWidget": "DesktopWidget.qml" },
+  "dependencies": { "plugins": [] },
+  "metadata": {
+    "defaultSettings": {
+      "showSeconds": true,
+      "showDate": true,
+      "showHEXTime": true,
+      "use24Hour": true
+    }
+  }
+}

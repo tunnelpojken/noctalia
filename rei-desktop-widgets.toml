@@ -1,0 +1,106 @@
+# ─────────────────────────────────────────────────────────────────────────────
+#  REI AYANAMI — DESKTOP WIDGETS  (Noctalia V5)
+#  Drop into ~/.config/noctalia/rei-desktop-widgets.toml
+# ─────────────────────────────────────────────────────────────────────────────
+
+[desktop_widgets]
+enabled = true
+
+# ── EVA-CLOCK ────────────────────────────────────────────────────────────────
+[desktop_widgets.widget.eva_clock]
+type     = "clock"
+output   = "HDMI-A-1"
+cx       = 2214.0
+cy       = 488.0
+scale    = 1.4
+rotation = 0.0
+
+[desktop_widgets.widget.eva_clock.settings]
+clock_style      = "digital"
+format           = "{:%H:%M\n%S}"   # hours:minutes / seconds on second line
+color            = "primary"
+shadow           = true
+background       = true
+background_color = "surface"
+background_radius  = 10.0
+background_padding = 14.0
+
+# ── REI-WEATHER ──────────────────────────────────────────────────────────────
+[desktop_widgets.widget.rei_weather]
+type     = "weather"
+output   = "HDMI-A-1"
+cx       = 2233.0
+cy       = 769.0
+scale    = 1.1
+rotation = 0.0
+
+[desktop_widgets.widget.rei_weather.settings]
+color            = "on_surface"
+shadow           = true
+background       = true
+background_color = "surface"
+background_radius  = 10.0
+background_padding = 14.0
+
+# ── MAGI SYSTEM — MELCHIOR (CPU) ─────────────────────────────────────────────
+[desktop_widgets.widget.magi_melchior]
+type     = "sysmon"
+output   = "HDMI-A-1"
+cx       = 49.0
+cy       = 1201.0
+scale    = 1.1
+rotation = 0.0
+
+[desktop_widgets.widget.magi_melchior.settings]
+stat             = "cpu_usage"
+stat2            = "cpu_temp"
+color            = "primary"
+color2           = "tertiary"
+show_label       = true
+shadow           = true
+background       = true
+background_color = "surface"
+background_radius  = 10.0
+background_padding = 12.0
+
+# ── MAGI SYSTEM — BALTHASAR (RAM) ────────────────────────────────────────────
+[desktop_widgets.widget.magi_balthasar]
+type     = "sysmon"
+output   = "HDMI-A-1"
+cx       = 49.0
+cy       = 1301.0
+scale    = 1.1
+rotation = 0.0
+
+[desktop_widgets.widget.magi_balthasar.settings]
+stat             = "ram_pct"
+stat2            = "swap_pct"
+color            = "secondary"
+color2           = "outline"
+show_label       = true
+shadow           = true
+background       = true
+background_color = "surface"
+background_radius  = 10.0
+background_padding = 12.0
+
+# ── MAGI SYSTEM — CASPAR (GPU) ───────────────────────────────────────────────
+[desktop_widgets.widget.magi_caspar]
+type     = "sysmon"
+output   = "HDMI-A-1"
+cx       = 49.0
+cy       = 1401.0
+scale    = 1.1
+rotation = 0.0
+
+[desktop_widgets.widget.magi_caspar.settings]
+stat             = "gpu_temp"
+stat2            = "gpu_vram"
+color            = "tertiary"
+color2           = "secondary"
+show_label       = true
+shadow           = true
+background       = true
+background_color = "surface"
+background_radius  = 10.0
+background_padding = 12.0

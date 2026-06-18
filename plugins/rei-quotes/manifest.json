@@ -1,0 +1,18 @@
+{
+  "id": "rei-quotes",
+  "name": "Rei Quotes",
+  "version": "1.0.0",
+  "minNoctaliaVersion": "3.6.0",
+  "author": "fested",
+  "license": "MIT",
+  "description": "Rotating Rei Ayanami quotes. Colors follow active Noctalia colorscheme.",
+  "entryPoints": { "desktopWidget": "DesktopWidget.qml" },
+  "dependencies": { "plugins": [] },
+  "metadata": {
+    "defaultSettings": {
+      "rotateInterval": 30,
+      "showEpisode": true,
+      "showSpeaker": true
+    }
+  }
+}

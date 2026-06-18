@@ -1,0 +1,17 @@
+{
+  "id": "magi-system",
+  "name": "MAGI System Monitor",
+  "version": "1.0.0",
+  "minNoctaliaVersion": "3.6.0",
+  "author": "fested",
+  "license": "MIT",
+  "description": "NERV MAGI supercomputer-styled system monitor. Colors follow active Noctalia colorscheme.",
+  "entryPoints": { "desktopWidget": "DesktopWidget.qml" },
+  "dependencies": { "plugins": [] },
+  "metadata": {
+    "defaultSettings": {
+      "diskPath": "/",
+      "showBars": true
+    }
+  }
+}

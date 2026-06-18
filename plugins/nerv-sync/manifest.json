@@ -1,0 +1,18 @@
+{
+  "id": "nerv-sync",
+  "name": "NERV Sync Rate",
+  "version": "1.0.0",
+  "minNoctaliaVersion": "3.6.0",
+  "author": "fested",
+  "license": "MIT",
+  "description": "EVA sync rate bar driven by CPU usage. Colors follow active Noctalia colorscheme.",
+  "entryPoints": { "desktopWidget": "DesktopWidget.qml" },
+  "dependencies": { "plugins": [] },
+  "metadata": {
+    "defaultSettings": {
+      "pilotName": "REI",
+      "unitNumber": "00",
+      "showSegments": true
+    }
+  }
+}
